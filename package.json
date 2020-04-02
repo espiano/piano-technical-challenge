@@ -1,0 +1,27 @@
+{
+  "name": "piano-technical",
+  "version": "1.0.0",
+  "description": "Piano Technical Challenge",
+  "readme": "README.md",
+  "private": true,
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint .",
+    "build": "webpack"
+  },
+  "keywords": [],
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "node-fetch": "^2.6.0",
+    "csv-parser": "^2.3.2"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-jest": "^23.8.2",
+    "jest": "^25.1.0"
+  },
+  "author": "Evan Seehausen",
+  "license": "ISC"
+}
